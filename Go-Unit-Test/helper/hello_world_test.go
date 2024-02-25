@@ -68,7 +68,7 @@ func TestHelloWorldTable(t *testing.T) {
 
 // subtTest
 // kita gunakan subtest untuk membuat func Test di dalam funct Test dengan menggunakan t.Run()
-// dan cara menjalankannya dengan mengetik go mod -v -run=TestSubtest atau bisa juga dengan menambah /farid atau anang
+// dan cara menjalankannya dengan mengetik go test -v -run=TestSubtest atau bisa juga dengan menambah /farid atau anang
 func TestSubtest(t *testing.T) {
 	t.Run("farid", func(t *testing.T) {
 		result := HelloWorld("farid")
